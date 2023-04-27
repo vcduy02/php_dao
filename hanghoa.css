@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    --bs-gutter-x: 0;
+}
+h1, h2, h3,h4 ,h5, h6, p{
+    margin: 0;
+}
+ul{
+    display: flex;
+    padding: 0;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: 10px 0;
+    padding: 20px;
+    background-color: rgba(112, 106, 112, 0.158);
+    border-radius: 5px;
+    color: brown;
+}
+.nav-bar{
+    background-color: black;
+    border-radius: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9990;
+}
+.nav-bar ul li{
+    padding: 20px;
+}
+.nav-bar ul li:hover{
+    background-color: rgb(99, 94, 94);
+    border-radius: 5px;
+}
+.nav-bar ul li a{
+    color: white;
+    font-size: 20px;
+}
+.nav-bar ul li a:hover{
+    color: black;
+}
+
+.form{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.in-form{
+    width: 400px;
+}
+.in-form input[type="file"]{
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 39px;
+}
+.in-form select{
+    width: 400px;
+    height: 39px;
+}
+.insert h3{
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 3px;
+    color: brown;
+    margin-bottom: 25px;
+}
+.in-insert input{
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.in-form input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 5px;
+}
+
+.add{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px 10px;
+}
+.add:hover{
+    background-color: brown;
+    color: white;
+}
+.button-end a{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    background-color: white;
+    padding: 7px 10px;
+    color: black;
+}
+.button-end a:hover{
+    background-color: brown;
+    color: white;
+}
+.button-end{
+    align-items: center;
+}
+
+footer p{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    color: brown;
+}

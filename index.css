@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    --bs-gutter-x: 0;
+}
+h1, h2, h3,h4 ,h5, h6, p{
+    margin: 0;
+}
+ul{
+    display: flex;
+    padding: 0;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: 10px 0;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 5px;
+    color: brown;
+}
+.nav-bar{
+    background-color: black;
+    border-radius: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9990;
+}
+.nav-bar ul li{
+    padding: 20px;
+}
+.nav-bar ul li:hover{
+    background-color: rgb(99, 94, 94);
+    border-radius: 5px;
+}
+.nav-bar ul li a{
+    color: white;
+    font-size: 20px;
+}
+.nav-bar ul li a:hover{
+    color: black;
+}
+
+main{
+    display: flex;
+}
+.main-left{
+    width: 950px;
+}
+.d-block{
+    height: 505px;
+    object-fit: cover;
+}
+.post{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sanpham{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sanpham a img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.sanpham a h4{
+    text-align: left;
+    color: black;
+}
+.sanpham a p{
+    text-align: left;
+    color: black;
+}
+.sanpham a:hover{
+    opacity: 70%;
+}
+
+.main-right{
+    padding-left: 20px;
+    width: 350px;
+}
+.login{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+}
+.login h5{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(133, 131, 131);
+    background-color: rgba(112, 106, 112, 0.158);
+}
+.accounts{
+    padding: 10px 20px;
+}
+.accounts input[type="username" i] {
+    width: 288px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.accounts input[type="password" i] {
+    width: 288px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.infor input{
+    width: 950px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.infor input[type="file" i]{
+    border: 1px solid rgb(133, 131, 131);
+}
+.infor img{
+    width: 288px;
+}
+.infor img, p{
+    text-align: center;
+}
+.dangnhap{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 10px 0;
+    color: black;
+}
+.dangnhap:hover{
+    background-color: rgb(82, 82, 245);
+    color: white;
+}
+.danhmuc{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.danhmuc h6{
+    padding: 10px 20px;
+    background-color: rgba(112, 106, 112, 0.158);
+}
+.in-danhmuc a{
+    display: block;
+    padding: 5px 20px;
+    border-top: 1px solid rgb(133, 131, 131);
+    color: black;
+}
+.in-danhmuc a:hover{
+    background-color: rgba(112, 106, 112, 0.158);
+}
+.timkiem{
+    background-color: rgba(112, 106, 112, 0.158);
+    padding: 10px 20px;
+    border-top: 1px solid rgb(133, 131, 131);
+}
+.timkiem input{
+    width: 288px;
+    padding-left: 10px;
+}
+.top10{
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.top10 h6{
+    padding: 10px 20px;
+    background-color: rgba(112, 106, 112, 0.158);
+    border-bottom: 1px solid rgb(133, 131, 131);
+}
+.top10s{
+    padding: 5px 20px;
+}
+.in-top10s{
+    height: 20px;
+    margin-bottom: 10px;
+}
+.in-top10s img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    padding: 1px;
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 1px;
+    margin-right: 10px;
+}
+.in-top10s a{
+    display: flex;
+}
+
+footer p{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    color: brown;
+}
